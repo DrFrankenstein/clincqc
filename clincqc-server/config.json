@@ -1,0 +1,7 @@
+{
+    db: {
+        "dsn": "sqlsrv:APP=clincqc;Server=localhost;Database=clincqcdb;ConnectionPooling=TRUE;",
+        "username": "",
+        "password": ""
+    }
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0">
+  <Operation Name="Rename Refactor" Key="28e48293-8b3d-4c77-bfdf-fd45c8b86f1a" ChangeDateTime="12/18/2011 05:22:43">
+    <Property Name="ElementName" Value="[dbo].[countries]" />
+    <Property Name="ElementType" Value="ISql100Table" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="ISql90Schema" />
+    <Property Name="NewName" Value="locations" />
+  </Operation>
+</Operations>

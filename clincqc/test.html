@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="scripts/closure-library/closure/goog/base.js"></script>
+    <script type="text/javascript" src="scripts/app-deps.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript">
+            /// <reference path="~/scripts/closure-library/closure/goog/base.js" />
+            /// <reference path="~/scripts/app/ui/map.js" />
+
+            goog.require("goog.dom");
+            goog.require("clincqc.ui.Map");
+    </script>
+    <style type="text/css">
+        html, body, #ctl { height:100% }
+        body { margin:0; }
+    </style>
+</head>
+<body>
+    <div id="ctl"></div>
+        <script type="text/javascript">
+            /// <reference path="~/scripts/google-maps-3-vs-1.0.js"/>
+            var ctl = new clincqc.ui.Map({
+                center:     new google.maps.LatLng(47.07, -74.23),
+                zoom:       6,
+                mapTypeId:  google.maps.MapTypeId.ROADMAP
+            });
+            ctl.render(goog.dom.getElement("ctl"));
+//            function MapComponent()
+//            {
+//                goog.ui.Component.call(this);
+//            }
+
+//            MapComponent.prototype = {
+//                map: null
+//            };
+//            goog.inherits(MapComponent, goog.ui.Component);
+
+//            MapComponent.prototype.enterDocument = function MapComponent$enterDocument() {
+//                MapComponent.superClass_.enterDocument.call(this);
+//                this.map = new google.maps.Map(this.getElement(), {
+//                    center:     new google.maps.LatLng(47.07, -74.23),
+//                    zoom:       6,
+//                    mapTypeId:  google.maps.MapTypeId.ROADMAP
+//                });
+
+//                goog.style.setHeight(this.getElement(), "100%");
+//            };
+
+//            var ctl = new MapComponent();
+//            ctl.render(goog.dom.getElement("ctl"));
+    </script>
+</body>
+</html>

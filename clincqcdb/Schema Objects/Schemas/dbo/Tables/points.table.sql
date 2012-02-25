@@ -1,0 +1,7 @@
+﻿CREATE TABLE dbo.points
+(
+    id BIGINT PRIMARY KEY IDENTITY,
+    section INT NOT NULL FOREIGN KEY REFERENCES sections,
+	lat FLOAT NOT NULL,
+    lon FLOAT NOT NULL
+)

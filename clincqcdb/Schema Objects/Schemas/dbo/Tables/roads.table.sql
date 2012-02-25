@@ -1,0 +1,7 @@
+﻿CREATE TABLE dbo.roads
+(
+	id INT PRIMARY KEY IDENTITY,
+    class INT FOREIGN KEY REFERENCES classes,
+    number CHAR(5) NOT NULL,
+    name NVARCHAR(255) NOT NULL
+)

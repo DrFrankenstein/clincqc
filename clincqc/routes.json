@@ -1,0 +1,56 @@
+﻿{
+    "countries":[
+        {
+            "code":"CA",
+            "name":"Canada",
+            "states":[
+                {
+                    "code":"QC",
+                    "name":"Québec",
+                    "classifications":[
+                        {
+                            "name":"Autoroute",
+                            "prefix":"A-"
+                            "routes":[
+                                {"number": "00005", "name": "Autoroute de la Gatineau"},
+                                {"number": "00010", "name": "Autoroute des Cantons-de-l'Est/Autoroute Bonaventure"},
+                                {"number": "00013"},
+                                {"number": "00015", "name": "Autoroute des Jardins-de-Napierville/Autoroute Décarie/Autoroute des Laurentides"},
+                                {"number": "00019"},
+                                {"number": "00020", "name": "Autoroute du Souvenir/Autoroute Jean-Lesage"},
+                                {"number": "00025"},
+                                {"number": "00030", "name": "Autoroute de l'Acier"},
+                                {"number": "00031"},
+                                {"number": "00035"},
+                                {"number": "00040", "name": "Autoroute Transcanadienne"},
+                                {"number": "00050", "name": "Autoroute Maurice-Richard"},
+                                {"number": "00055", "name": "Autoroute Joseph-Armand-Bombardier/Autoroute Transquébécoise"},
+                                {"number": "00070"},
+                                {"number": "00073"},
+                                {"number": "00085"},
+                                {"number": "00410"},
+                                {"number": "00440"},
+                                {"number": "00520"},
+                                {"number": "00530"},
+                                {"number": "00610"},
+                                {"number": "00640"},
+                                {"number": "00720"},
+                                {"number": "00730"},
+                                {"number": "00930"},
+                                {"number": "00955"}
+                            ]
+                        },
+                        {
+                            "name":"Provincial Route",
+                            "prefix":"QC"
+                        },
+                        {
+                            "name":"Artery",
+                            "unsigned":true
+                        }
+                    ]
+                }
+            ]
+         }
+    ]
+}
