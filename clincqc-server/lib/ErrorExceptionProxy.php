@@ -24,6 +24,6 @@ class ErrorExceptionProxy
      */
     static public function init()
     {
-        //set_error_handler(array('ErrorExceptionProxy', 'handler'));        
+        set_error_handler(array('ErrorExceptionProxy', 'handler'));        
     }
 }
