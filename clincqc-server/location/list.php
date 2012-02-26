@@ -5,12 +5,12 @@ $db = DatabaseConnection::getConnection();
 
 if(isset($_REQUEST['parent']))
 {
-    $query = $db->prepare('EXEC list_locations(:parent)');
+    $query = $db->prepare('EXEC list_locations :parent');
     $query->bindParam(':parent', $_REQUEST['parent'], PDO::PARAM_INT);
 }
 else
 {
-    $query = $db->prepare('EXEC list_locations()');
+    $query = $db->prepare('EXEC list_locations');
 }
 
 $query->execute();

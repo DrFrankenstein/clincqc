@@ -3,3 +3,5 @@ clincqc/clincqc.suo
 clincqc/scripts/app/app.js
 clincqcdb/obj
 clincqcdb/sql
+/clincqc-server/.settings/
+/clincqc-server/nbproject/private/

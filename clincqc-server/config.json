@@ -1,6 +1,6 @@
 {
     "db": {
-        "dsn": "sqlsrv:APP=clincqc;Server=localhost;Database=clincqcdb;ConnectionPooling=TRUE;",
+        "dsn": "sqlsrv:APP=clincqc;Server=localhost\\SQL2008;Database=clincqcdb;ConnectionPooling=TRUE;",
         "username": "",
         "password": ""
     }

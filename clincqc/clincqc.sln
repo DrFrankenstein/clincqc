@@ -22,7 +22,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "clincqc", ".", "{1D6F048F-6
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "clincqcdb", "clincqcdb\clincqcdb.dbproj", "{67CBC824-A49E-4E9B-A947-360F3DFE65C3}"
+Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "clincqcdb", "..\clincqcdb\clincqcdb.dbproj", "{67CBC824-A49E-4E9B-A947-360F3DFE65C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

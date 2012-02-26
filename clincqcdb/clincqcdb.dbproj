@@ -185,6 +185,9 @@
     <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\list_locations.proc.sql">
       <SubType>Code</SubType>
     </Build>
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\dump_locations.proc.sql">
+      <SubType>Code</SubType>
+    </Build>
   </ItemGroup>
   <ItemGroup>
     <DeploymentExtensionConfiguration Include="clincqcdb.refactorlog">

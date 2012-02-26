@@ -1,6 +1,6 @@
 ﻿CREATE TABLE dbo.sections
 (
-	id INT PRIMARY KEY IDENTITY,
+    id INT PRIMARY KEY IDENTITY,
     -- road INT FOREIGN KEY REFERENCES roads,
     name VARCHAR(255),
     tag VARCHAR(50),

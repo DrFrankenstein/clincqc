@@ -2,9 +2,10 @@
     @parent INT = NULL
 AS
 
-IF @parent IS NOT NULL
+IF @parent IS NULL
     SELECT id, parent, code, name
-        FROM locations;
+        FROM locations
+        WHERE parent IS NULL;
 ELSE
     SELECT id, parent, code, name
         FROM locations
