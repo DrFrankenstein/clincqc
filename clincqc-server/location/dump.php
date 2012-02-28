@@ -10,8 +10,8 @@ $idmap = array();
 while($row = $query->fetch(PDO::FETCH_ASSOC))
 {
     $loc = array(
-        'id'        =>  $row['id'],
-        'parent'    =>  $row['parent'],
+        'id'        =>  (int) $row['id'],
+        'parent'    =>  $row['parent'] === null? null : (int) $row['parent'],
         'code'      =>  $row['code'],
         'name'      =>  $row['name'],
         'locations' => array()

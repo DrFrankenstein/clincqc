@@ -1,6 +1,7 @@
 ﻿CREATE PROCEDURE dbo.list_locations
     @parent INT = NULL
 AS
+SET NOCOUNT ON;
 
 IF @parent IS NULL
     SELECT id, parent, code, name
