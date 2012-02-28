@@ -15,6 +15,6 @@ class JsonException
     public function __construct($code)
     {
         $this->code = $code;
-        $this->message = $codemap[$code];
+        $this->message = self::$codemap[$code];
     }
 }

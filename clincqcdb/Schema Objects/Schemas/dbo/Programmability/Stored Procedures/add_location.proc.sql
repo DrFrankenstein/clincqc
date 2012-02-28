@@ -3,9 +3,9 @@
     @code CHAR(2),
     @name NVARCHAR(255)
 AS
-SET NOCOUNT ON;
+    SET NOCOUNT ON;
 
-INSERT INTO locations (parent, code, name)
-        VALUES (@parent, @code, @name);
+    INSERT INTO locations (parent, code, name)
+            VALUES (@parent, @code, @name);
 	
 RETURN 0;

@@ -191,6 +191,12 @@
     <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\add_location.proc.sql">
       <SubType>Code</SubType>
     </Build>
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\delete_location.proc.sql">
+      <SubType>Code</SubType>
+    </Build>
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\update_location.proc.sql">
+      <SubType>Code</SubType>
+    </Build>
   </ItemGroup>
   <ItemGroup>
     <DeploymentExtensionConfiguration Include="clincqcdb.refactorlog">
